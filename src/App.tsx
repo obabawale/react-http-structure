@@ -1,22 +1,22 @@
 import { FC } from 'react'
 import './App.css'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Login from './components/Login/Login';
-
+import Dashboard from './components/dashboard/Dashboard';
 interface AppProps {
   title: string;
 }
 
 const App: FC<AppProps> = ({ title }) => {
-  // const [count, setCount] = useState(0)
-  const token = null;
-  if (!token) {
-    return <Login />
-  }
-
   return (
     <>
       <h1>{title}</h1>
-      Hello vite
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path='/dashboard' element={<Dashboard/>} />
+        </Routes>
+      </Router>
     </>
   )
 }

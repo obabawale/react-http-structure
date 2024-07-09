@@ -1,9 +1,23 @@
 {
   "users": [
     {
-      "email": "olivier@mail.com",
-      "password": "$2a$10$J4xKb90AcLtpeGAaX1gJJe4GSqRIUEJJ1/jzZxktF18Go/eYtGS9y",
+      "email": "padinality@yahoo.com",
+      "password": "$2a$10$d.CfD/gDukPskqr9ximmq.ZScf74L2.r1n7X9CuBT.3WdtYpa/.4i",
+      "firstname": "Olalekan",
+      "lastname": "Babawale",
       "id": 1
+    },
+    {
+      "email": "heloo.zubi@gmail.com",
+      "password": "$2a$10$TBMqkSZIs87mYlrBEhiHOuNcqce2m23zrJLQ8Px8P8tUBlXk8HKku",
+      "id": 2
+    },
+    {
+      "email": "oluwatamilore.babs@yahoo.com",
+      "password": "$2a$10$D8L075YoO1eh2EDwtNIChuqjxqm9QQWYisa.MGt8S3qXx8iqE/VoO",
+      "firstname": "Oluwatamilore",
+      "lastname": "Babawale",
+      "id": 3
     }
   ]
 }
